@@ -5,7 +5,7 @@ export default function Header(props){
        <header>
             <div className="logo">
                 <img src={logo} />
-                <a href="journal.html">
+                <a href="#">
                     <strong>My Journals </strong>
                 </a>
             </div>
