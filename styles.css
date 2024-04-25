@@ -1,14 +1,12 @@
-*{
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
+
 *,
 #root{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 body{
-    background-color: rgb(77, 119, 119);
     width: 100%;
 }
 header, .logo,
@@ -36,12 +34,7 @@ header , .view-more a{
 header{
     background-color: #fff;
     justify-content: space-between;
-    width: 100%;
 }
-
- header nav, div{
-    padding: 1.25em;
-} 
 
 header a{
     text-decoration: none;
@@ -82,7 +75,7 @@ strong {
 }
 
 .my-journal-txt{
-   margin:6.25em 0.635em 0 0;
+   margin:6.25em 0.635em 0 1.4em;
 }
 
 .my-journal-txt p{
@@ -101,10 +94,6 @@ h1{
     font-size: 2.25rem;
 }
 
-.section-two{
-    background-color:#fafafa;
-}
-
 p{
     margin-bottom: 1.17em;
 }
@@ -117,6 +106,8 @@ p{
     flex-wrap: wrap;
     padding: 20px 0;
     justify-content: center;
+    background-color:#fafafa;
+    gap: 25px;
 }
 .section-two div p{
     font-weight: 350;
@@ -125,6 +116,11 @@ p{
     margin:0.5em 0;
     max-width: 374px;
 }
+header div,
+footer{
+    padding: 1.25em;
+}
+
 
 .footer-container{
     text-align: center;
@@ -142,19 +138,23 @@ footer p{
 }
 
 
-
+/* mobile */
 
 @media (max-width:480px){
     .social-icons i{
-        font-size: 1.1em;
+        font-size: 0.9em;
+    }
+    .logo img{
+        width: 17px;
+    }
+    .logo a strong{
+        font-size:0.8125em;
     }
 
     .change-journal-btn strong{
-        font-size: 0.7em;
+        font-size: 0.6875em;
     }
 }
-
-
 
 /* Desktop  */
 

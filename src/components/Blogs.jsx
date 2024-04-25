@@ -1,6 +1,5 @@
 import React from "react"
 export default function Blogs(props){
-    console.log(props.data.on)
     return (
             <div  data-aos="zoom-in-up">                        
                 <img 
